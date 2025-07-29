@@ -1,0 +1,89 @@
+package threadpac;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Application {
+	public static void main(String[] args) throws InterruptedException {
+		List<Integer> ql=new ArrayList<>();
+		Thread t1=new Thread(new Producer(ql));
+		Thread t2=new Thread(new Consumer(ql));
+		t1.start();
+		t2.start();
+		
+	}
+}
+//		System.out.println("Thread 1 starting!!..............");
+//		Task t1= new Task("T1");
+//		t1.start();
+//		 
+//		System.out.println("Thread  2 starting!!..............");
+//		Task t2= new Task("T2");
+//		t2.start();
+//		 
+//		Sequence s=new Sequence();
+//		for(int i=0;i<100;i++) {
+//			System.out.println(s.getnext());
+//		}
+//		Sequence s=new Sequence();
+//		worker w1=new worker(s);
+//		w1.start();
+//		worker w2=new worker(s);
+//		w2.start();
+//		Inventory invenManag=new Inventory()	;
+//		Thread task=new Thread(new Runnable() {
+//			
+//			@Override
+//			public void run() {
+//				invenManag.populatesoldProduct();
+//				
+//			}
+//		});
+//		Thread disptask=new Thread(new Runnable() {
+//			
+//			@Override
+//			public void run() {
+//				invenManag.dispproduct();
+//				
+//			}
+//		});
+//		task.start();
+//		Thread.sleep(2000);
+//		disptask.start();
+//	}
+//	public static class worker extends Thread{
+//		Sequence s;
+//		worker( Sequence s){
+//			this.s=s;
+//		}
+//		public void run() {
+//			for(int i=0;i<100;i++) {
+//				System.out.println(s.getnext()+"  =  "+ Thread.currentThread().getName());
+//				try {
+//					Thread.sleep(500);
+//				} catch (InterruptedException e) {
+//					// TODO Auto-generated catch block
+//					e.printStackTrace();
+//				}
+//			}
+//		}
+//	}
+//	public static class Task extends Thread{
+//		String name;
+//		Task(String name){
+//			this.name=name;
+//		}
+//		public void run() {
+//			Thread.currentThread().setName(this.name);
+//			for (int i=0;i<1000;i++) {
+//				System.out.println(i+Thread.currentThread().getName());
+//				
+//				try {
+//					Thread.sleep(100);
+//				} catch (InterruptedException e) {
+//					e.printStackTrace();
+//				}
+//			}
+//		}
+//	}
+}

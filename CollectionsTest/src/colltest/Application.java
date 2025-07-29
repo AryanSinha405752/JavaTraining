@@ -1,0 +1,72 @@
+package colltest;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class Application {
+public static void main(String[] args) {
+//	ArrayList<Integer> hs=new ArrayList<Integer> ();
+//	hs.add(1);
+//	hs.add(2);
+//	hs.add(1);
+	
+//	HashSet<Integer> hs=new HashSet<Integer>();
+//	hs.add(1);
+//	hs.add(2);
+//	hs.add(1);
+//	System.out.println(hs);
+	
+//	ArrayList<Animal> an= new ArrayList<Animal>();
+//	an.add(new Animal("Lion",23));
+//	an.add(new Animal("Lion",32));
+//	an.add(new Animal("Tiger",42));
+//	an.add(new Animal("Lion", 23));
+//	an.add(new Animal("lion",23));
+//	Collections.sort(an);
+//	for(Animal a: an) {
+//		System.out.println(a);
+//	}
+	TreeMap<String,Integer> mp= new TreeMap<String, Integer>();
+	mp.put("Aryan", 1341);
+	mp.put("Anushka", 1215);
+	mp.put("Ashish", 1147);
+	mp.put("Aditya", 1253);
+	
+	for(Map.Entry<String, Integer> ent: mp.entrySet()) {
+		System.out.println(ent.getKey()+" : "+ent.getValue());
+	}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

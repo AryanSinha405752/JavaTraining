@@ -1,0 +1,13 @@
+package Fileop;
+
+import java.util.ArrayList;
+
+public class CollectionsTest {
+public static void main(String[] args) {
+	ArrayList w<String>=new ArrayList<String>();
+	w.add("Hi");
+	w.add('a');
+	w.add(1);
+	
+}
+}

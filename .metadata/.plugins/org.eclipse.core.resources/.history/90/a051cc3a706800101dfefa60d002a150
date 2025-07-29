@@ -1,0 +1,14 @@
+package java_basics;
+
+public class Animal {
+	int age;
+	String gen;
+	int w;
+	public void eat() {
+		System.out.println("Eating");
+	}
+	public void sleep() {
+		System.out.println("Sleeping");
+	}
+	
+}

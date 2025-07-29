@@ -1,0 +1,24 @@
+package com.perfi.springbootdemo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import com.perfi.springbootdemo.game.GamingConsole;
+import com.perfi.springbootdemo.game.gamerunner;
+import com.perfi.springbootdemo.game.mariogame;
+import com.perfi.springbootdemo.game.supercontragame;
+
+@SpringBootApplication
+public class SpringbootDemoApplication {
+
+	public static void main(String[] args) {
+		
+		ConfigurableApplicationContext context=  SpringApplication.run(SpringbootDemoApplication.class, args);
+//		mariogame game = new mariogame();
+//		GamingConsole game = new supercontragame();
+//		gamerunner runner = new gamerunner(game);
+//		runner.run();
+	}
+
+}

@@ -1,0 +1,9 @@
+package Fileop;
+
+import java.util.ArrayList;
+
+public class CollectionsTest {
+public static void main(String[] args) {
+	ArrayList w=new ArrayList();
+}
+}

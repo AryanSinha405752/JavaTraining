@@ -1,0 +1,19 @@
+package Fileop;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class CollectionsTest {
+public static void main(String[] args) {
+	ArrayList<String> w =new ArrayList<String>();
+	w.add("Hi");
+	
+	LinkedList<Integer> ll= new LinkedList<Integer>();
+	ll.add(1);
+	ll.add(3);
+
+	for(int l: ll){
+		System.out.println(l);
+	}
+}
+}

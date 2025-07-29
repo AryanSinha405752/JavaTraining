@@ -1,0 +1,20 @@
+package com.perfi.springbootdemo.game;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class gamerunner {
+	private GamingConsole game;
+
+	public gamerunner(GamingConsole game) {
+		// TODO Auto-generated constructor stub
+		this.game=game;
+	}
+
+	public void run() {
+		// TODO Auto-generated method stub
+		game.up();
+		game.right();
+	}
+
+}

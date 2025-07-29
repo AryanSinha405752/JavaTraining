@@ -1,0 +1,19 @@
+package java_basics;
+
+public class Human {
+	String name,eye;
+	int age, h;
+	
+	public void speak() {
+		System.out.println("Hi, my name is"+ name);
+		
+	}
+	public void eat() {
+		System.out.println(name+" has eaten");
+		
+	}
+	public void walk() {
+		System.out.println(name+ " is leaving");
+		
+	}
+}

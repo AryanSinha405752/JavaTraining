@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;mariogame.java&apos; to &apos;com.perfi.springbootdemo.game.mariogame.java&apos;&#x0D;&#x0A;- Original project: &apos;springbootdemo&apos;&#x0D;&#x0A;- Destination element: &apos;com.perfi.springbootdemo.game.mariogame.java&apos;&#x0D;&#x0A;- Original element: &apos;com.perfi.springbootdemo.game.mariogame.java&apos;" description="Copy compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.perfi.springbootdemo.game{mariogame.java" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.perfi.springbootdemo.game{mariogame.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1751952773579" units="1" version="1.0"/>
+</session>

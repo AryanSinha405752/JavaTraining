@@ -1,0 +1,40 @@
+package genpack;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+
+public class Application {
+	public static void main(String[] args) {
+//		ArrayList a= new ArrayList();
+//		a.add("Hello");
+//		a.add(1);
+//		a.add(2.2);
+//		int b=a.get(1) +  a.get(2);
+		
+//		ArrayList<Integer> a= new ArrayList<Integer>();
+//		a.add(1);
+//		a.add(2);
+//		Object o=new Object()
+//		System.out.println(a.get(1) +  a.get(0));
+		
+		Set<String> s1=new HashSet<String>();
+		s1.add("a");
+		s1.add("b");
+		s1.add("c");
+		Set<String> s2=new HashSet<String>();
+		s2.add("a");
+		s2.add("c");
+		s2.add("d");
+		Set<String> res=union(s1,s2);
+		System.out.println(res);
+		
+	}
+	
+	public static <E> Set<E> union(Set<E> s1, Set<E>s2){
+		Set<E> res=new HashSet<E>(s1);
+		res.addAll(s2);
+		return res;
+		
+	}
+}

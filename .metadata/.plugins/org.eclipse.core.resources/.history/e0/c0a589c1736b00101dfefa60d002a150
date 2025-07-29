@@ -1,0 +1,20 @@
+package colltest;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+
+public class Application {
+public static void main(String[] args) {
+	ArrayList<Integer> hs=new ArrayList()<Integer> ();
+	hs.add(1);
+	hs.add(2);
+	hs.add(1);
+	
+//	HashSet<Integer> hs=new HashSet<Integer>();
+//	hs.add(1);
+//	hs.add(2);
+//	hs.add(1);
+	System.out.println(hs);
+	
+}
+}

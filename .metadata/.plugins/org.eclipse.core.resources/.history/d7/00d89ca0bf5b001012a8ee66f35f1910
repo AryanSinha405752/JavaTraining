@@ -1,0 +1,17 @@
+package com.perfi.springbootdemo.game;
+
+public class gamerunner {
+	private mariogame game;
+
+	public gamerunner(mariogame game) {
+		// TODO Auto-generated constructor stub
+		this.game=game;
+	}
+
+	public void run() {
+		// TODO Auto-generated method stub
+		game.up();
+		game.right();
+	}
+
+}

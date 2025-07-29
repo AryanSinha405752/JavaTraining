@@ -1,0 +1,19 @@
+package com.perfi.springbootdemo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.perfi.springbootdemo.game.gamerunner;
+import com.perfi.springbootdemo.game.mariogame;
+
+@SpringBootApplication
+public class SpringbootDemoApplication {
+
+	public static void main(String[] args) {
+		// SpringApplication.run(SpringbootDemoApplication.class, args);
+		mariogame game = new mariogame();
+		gamerunner runner = new gamerunner(game);
+		runner.run();
+	}
+
+}

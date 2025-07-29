@@ -1,0 +1,9 @@
+package java_basics;
+
+public class StringPrac {
+	public static void main(String[] args) {
+		String str="ABCDEFG";
+		
+		System.out.println(str.substring(0, 2));
+	}
+}

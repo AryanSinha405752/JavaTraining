@@ -1,0 +1,25 @@
+package com.perfi.springbootdemo.game;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+@primary
+public class gamerunner {
+	@Autowired
+	private GamingConsole game;
+
+	public gamerunner(GamingConsole game) {
+		// TODO Auto-generated constructor stub
+		this.game=game;
+	}
+
+	public void run() {
+		// TODO Auto-generated method stub
+		game.up();
+		game.right();
+		game.left();
+		game.down();
+	}
+
+}
