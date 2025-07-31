@@ -1,0 +1,5 @@
+package lamdaPac;
+
+public interface Walkable {
+	public void walk();
+}
